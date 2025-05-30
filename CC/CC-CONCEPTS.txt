@@ -1,0 +1,56 @@
+1. Core Computer Science & OS Concepts
+
+......................................................................................
+| Area                  | Key Concepts                                               |
+| --------------------- | ---------------------------------------------------------- |
+| **Operating Systems** | Linux commands, file permissions, system processes, SSH    |
+| **Networking**        | IP, DNS, HTTP/S, VPN, Load Balancers, NAT, Firewalls       |
+| **Databases**         | SQL (MySQL/PostgreSQL), NoSQL (MongoDB, DynamoDB), backups |
+| **Programming**       | Python basics, scripting, APIs, JSON/YAML                  |
+........................................................................................
+
+2. Cloud Platform Fundamentals (AWS/Azure/GCP)
+
+............................................................................................................
+| Topic                         | Key Concepts                                                             |
+| ----------------------------- | ------------------------------------------------------------------------ |
+| **Compute**                   | EC2, App Engine, Azure VMs, Auto Scaling, Serverless (Lambda, Functions) |
+| **Storage**                   | S3, Blob Storage, Cloud Storage, Lifecycle policies                      |
+| **Databases**                 | RDS, DynamoDB, Cloud SQL, Cosmos DB                                      |
+| **Networking**                | VPC, Subnets, Gateways, NACLs, Security Groups                           |
+| **IAM (Access Control)**      | Roles, Policies, MFA, least privilege, STS                               |
+| **Monitoring**                | CloudWatch, Stackdriver, Azure Monitor                                   |
+| **Billing & Cost Management** | Pricing calculator, budgets, reserved instances                          |
+............................................................................................................
+
+3. Infrastructure as Code (IaC)
+
+....................................................................................
+| Tool                     | Concepts                                              |
+| ------------------------ | ----------------------------------------------------- |
+| **Terraform**            | Providers, Resources, Variables, Modules, State Files |
+| **CloudFormation (AWS)** | Templates, Parameters, Stacks                         |
+| **Azure Bicep / ARM**    | Declarative deployment, Modules                       |
+....................................................................................
+
+4.DevOps & Automation
+...................................................................................
+| Area                | Key Concepts                                              |
+| ------------------- | --------------------------------------------------------- |
+| **CI/CD Pipelines** | GitHub Actions, GitLab CI, Jenkins                        |
+| **Containers**      | Docker Images, Volumes, Dockerfile, Compose               |
+| **Kubernetes**      | Pods, Services, Deployments, Ingress, ConfigMaps, Secrets |
+| **Version Control** | Git basics, branching, merging                            |
+...................................................................................
+
+5. Cloud Security & Best Practices
+
+...................................................................................
+| Topic               | Concepts                                                   |
+| ------------------- | ---------------------------------------------------------- |
+| **IAM Security**    | Policy boundaries, roles vs users, federated access        |
+| **Data Protection** | Encryption at rest/in transit, KMS, Secrets Manager        |
+| **Firewalls**       | Security groups vs NACLs, inbound/outbound rules           |
+| **Compliance**      | GDPR, HIPAA, SOC2 basics                                   |
+| **Security Tools**  | AWS Inspector, Azure Security Center, GCP Security Scanner |
+....................................................................................

@@ -1,0 +1,8 @@
+soleyman:(aws)
+
+-->tcp: breaks down your data and makes sure it arrives correctly.
+-->ip: make sure that data gets to the right destination.
+
+-->route 53(AWS DNS SERVICE): converts friendly domain names into ip addresses.  
+--->s3( simple storage service ) :stores images ,html file ,js, css in buckets.
+--->cloud front: content delivery network, also security tools also aws WAF(Web Application firewall).

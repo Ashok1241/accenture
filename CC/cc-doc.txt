@@ -1,0 +1,119 @@
+Custom 12-Week Study Plan (Flexible: 10–15 hrs/week)
+🗓️ Weeks 1–2: Foundations
+Linux & Command Line
+
+Networking Basics (TCP/IP, DNS, Firewalls)
+
+Python Basics (Functions, Loops, APIs)
+
+🔗 Resources:
+
+Linux Journey
+
+CS50
+
+Python for Everybody
+
+🗓️ Weeks 3–4: Cloud Fundamentals
+Pick one provider (AWS/Azure/GCP)
+
+Learn basic services: Compute, Storage, IAM
+
+Deploy first web app (static website)
+
+🔗 Resources:
+
+AWS Cloud Quest
+
+GCP Essentials - Qwiklabs
+
+🗓️ Weeks 5–6: Intermediate Services & IaC
+EC2, S3, RDS, Lambda, VPC
+
+Introduction to Terraform & Infrastructure as Code
+
+🔗 Resources:
+
+Terraform Docs
+
+YouTube: Terraform Crash Course
+
+🗓️ Weeks 7–8: DevOps & Automation
+Learn Docker, CI/CD with GitHub Actions
+
+Intro to Kubernetes
+
+🔗 Resources:
+
+Docker Mastery
+
+CI/CD with GitHub Actions
+
+🗓️ Weeks 9–10: Cloud Security & Monitoring
+IAM, Encryption, Firewall Rules
+
+Monitoring & Logging (CloudWatch / Azure Monitor)
+
+🔗 Resources:
+
+AWS Security Essentials
+
+GCP Security Specialization
+
+🗓️ Weeks 11–12: Portfolio + Certification Prep
+Complete 2+ projects (see below)
+
+Review certification blueprints
+
+Take practice tests
+
+🔗 Resources:
+
+Tutorials Dojo Practice Exams
+
+ExamPro AWS Courses
+
+💡 Beginner-to-Pro Cloud Projects
+🟢 Beginner
+Host a Static Website on S3 or Azure Blob
+
+Create a Personal Portfolio with EC2 & Route53
+
+Build a Serverless Contact Form using AWS Lambda + SES
+
+🟡 Intermediate
+Create a CI/CD Pipeline with GitHub Actions + EC2
+
+Use Terraform to Provision VPC, EC2, and S3
+
+Build a Python Flask App and Deploy on AWS Elastic Beanstalk
+
+🔴 Advanced
+Deploy a Microservice App with Docker + Kubernetes (EKS or AKS)
+
+Set up a Scalable RDS Database and Backup Plan
+
+Build a Cost Monitoring Dashboard using CloudWatch Logs + Lambda
+
+Multi-Cloud App Deployment using Terraform
+
+🧠 Certification Exam Preparation Tips
+🎯 Recommended Certifications:
+AWS Certified Solutions Architect – Associate
+
+Azure Administrator Associate
+
+Google Associate Cloud Engineer
+...............................................................................
+| Area                        | Covered? | Notes                                                           |
+| --------------------------- | -------- | --------------------------------------------------------------- |
+| **Linux + Networking**      | ✅        | Weeks 1–2, critical for DevOps/cloud roles                      |
+| **Programming (Python)**    | ✅        | Basics are enough unless targeting cloud automation-heavy roles |
+| **Cloud Fundamentals**      | ✅        | EC2, S3, IAM, Lambda, VPC – must-know                           |
+| **Infrastructure as Code**  | ✅        | Terraform and CloudFormation concepts                           |
+| **DevOps (CI/CD + Docker)** | ✅        | GitHub Actions, Docker, Jenkins (optional add-on)               |
+| **Kubernetes (K8s)**        | ✅        | Intro-level good for junior/mid roles                           |
+| **Cloud Security**          | ✅        | IAM, encryption, firewall rules                                 |
+| **Monitoring & Logging**    | ✅        | CloudWatch, Azure Monitor, GCP logs                             |
+| **Certifications Prep**     | ✅        | AWS/Azure/GCP roadmap + practice tests                          |
+| **Projects + Portfolio**    | ✅        | From beginner to pro level                                      |

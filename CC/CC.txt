@@ -1,0 +1,11 @@
+CC:
+1.OS--->LINUX
+2.Networking --->nextwork channel
+3.security(iam,encryption)
+4.data bases(sql,nosql)
+5.virtualision and containers
+6.programming(python)
+7.ai ml
+
+🌍  Our website / blog: nextwork.org
+
