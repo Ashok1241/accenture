@@ -1,0 +1,128 @@
+1. Basic Arithmetic Formulas:
+
+  Function	Description	Example	      Result
+  =A1 + B1	Addition	=10 + 20	30
+  =A1 - B1	Subtraction	=20 - 5	        15
+  =A1 * B1	Multiplication	=5 * 6	        30
+  =A1 / B1	Division	=30 / 5	        6
+  =A1 ^ B1	Exponentiation	=2 ^ 3	        8
+
+2. Mathematical Functions:
+   
+   Function	Description	Example	
+     SUM	Adds values	=SUM(A1:A3)	
+    AVERAGE	Mean value	=AVERAGE(10, 20, 30)
+     MIN	Smallest number	=MIN(5, 10, 2)	
+     MAX	Largest number	=MAX(5, 10, 2)	
+   ROUND	Rounds number	=ROUND(2.678, 2)
+     INT	Integer part	=INT(5.99)	
+     MOD	Remainder	=MOD(10, 3)	
+     RAND	Random number 	=RAND()	
+
+3. Logical Functions:
+
+   Function	Description	        Example	
+      IF	Conditional logic	=IF(A1>10, "Yes", "No")
+     AND	All conditions true	=AND(A1>5, B1<10)
+      OR	Any condition true	=OR(A1=1, B1=2)	
+      NOT	Reverses logic	        =NOT(A1=10)
+
+4. Text Functions:
+
+        Function	Description	Example	                                         Result
+          CONCAT	Combine text	        =CONCAT("Hi ", "There")	                 Hi There
+        TEXTJOIN	Join with delimiter	=TEXTJOIN("-", TRUE, "2025", "05", "23") 2025-05-23
+            LEFT	First characters	=LEFT("Excel", 2)	                 Ex
+           RIGHT	Last characters	        =RIGHT("Excel", 2)	                 el
+             MID	Middle characters	=MID("Excel", 2, 3)	                 xce
+             LEN	Text length	        =LEN("Hello")	                         5
+           UPPER	To uppercase	        =UPPER("excel")                 	EXCEL
+           LOWER	To lowercase	        =LOWER("EXCEL")	                        excel
+          PROPER	Capitalize words	=PROPER("hello world")	               Hello World
+            TRIM	Remove extra spaces	=TRIM(" Hello ")	               Hello
+
+
+ 5. Lookup & Reference Functions:
+    
+        Function	Description	       Example	                                     Result
+         VLOOKUP	Vertical lookup	      =VLOOKUP(101, A2:C10, 2, FALSE)	      Value from 2nd column
+         HLOOKUP	Horizontal lookup	=HLOOKUP("Q1", A1:D2, 2, FALSE)	      Value under "Q1"
+          INDEX	    Return value at position	=INDEX(A1:C3, 2, 3)	             Value at row 2, col 3
+           MATCH	Position of value	=MATCH(50, A1:A10, 0)	            Row where 50 is found
+         XLOOKUP	Replaces VLOOKUP	=XLOOKUP("Apple", A1:A5, B1:B5)	    Value from B1:B5
+
+
+
+
+6. Date & Time Functions:
+
+Function        	Description     	Example	             Result
+TODAY()	                 Current date	=TODAY()	2025-05-23
+NOW()	           Current date & time	=NOW()	2025-05-23 12:45
+DATE	             Create date	=DATE(2025, 5, 23)	2025-05-23
+DAY	              Extract day	=DAY("2025-05-23")	23
+MONTH	           Extract month	=MONTH("2025-05-23")	5
+YEAR	          Extract year	=YEAR("2025-05-23")	2025
+DATEDIF	Date difference	=DATEDIF(A1,B1,"D")	Days between A1 and B1
+NETWORKDAYS	Workdays between	=NETWORKDAYS(A1,B1)	No. of working days
+
+
+
+ 7. Financial Functions
+
+Function	Description	Example	                Result
+PMT	    Loan payment	=PMT(5%/12, 60, -10000)	Monthly payment
+FV	    Future value	=FV(0.05, 10, -1000)	Future value
+PV	   Present value	=PV(0.05, 10, -1000)	Present value
+NPV	  Net present value	=NPV(0.1, A1:A5)	NPV based on rate
+
+
+
+
+8. Statistical Functions
+Function	Description	Example	Result
+COUNT	Count numbers	=COUNT(A1:A10)	Number of cells with numbers
+COUNTA	Count non-empty	=COUNTA(A1:A10)	All non-empty cells
+COUNTBLANK	Count empty cells	=COUNTBLANK(A1:A10)	Number of empty cells
+MEDIAN	Middle value	=MEDIAN(1, 3, 5)	3
+MODE	Most frequent	=MODE(1, 2, 2, 3)	2
+STDEV.S	Std deviation (sample)	=STDEV.S(A1:A10)	SD of values
+
+ 9. Error Handling
+Function	Description	Example	Result
+IFERROR	Handle errors	=IFERROR(A1/B1, "Error")	Returns "Error" if divide by 0
+ISERROR	Is error?	=ISERROR(A1/B1)	TRUE/FALSE
+ISNUMBER	Is a number?	=ISNUMBER(A1)	TRUE/FALSE
+
+ 10. Array and Dynamic Functions (Excel 365 / 2021 and later)
+Function	Description	Example	Result
+FILTER	Filter array	=FILTER(A2:B10, B2:B10>50)	Filter rows where B > 50
+SORT	Sort array	=SORT(A2:B10, 2, TRUE)	Sort by 2nd column ASC
+UNIQUE	Unique values	=UNIQUE(A2:A10)	Distinct entries
+SEQUENCE	Generate sequence	=SEQUENCE(5)	1 2 3 4 5
+SPLIT	Split text	=TEXTSPLIT("a,b,c", ",")	a b c
+
+
+
+
+
+
+
+*XLOOKUP:Can search both left-to-right and right-to-left,Uses column ranges (A:A, B:B), Return multiple values rows(spill array).=XLOOKUP("Apple", A2:A10, B2:B10, "Not found")
+
+
+*VLOOKUP:Only searches left-to-right,Uses column number (2, 3, etc.),Return single value.=VLOOKUP("Apple", A2:C10, 2, FALSE)
+
+
+  
+Feature	               FILTER	                            XLOOKUP
+   Purpose	Returns all matching values (rows/columns)	Returns the first match (can return a row or column)
+Lookup Capability	Multiple results (spill array)	Single result by default (can return multiple columns)
+Use Case	When you want all data that meets a condition	When you want to find one specific match
+Syntax	=FILTER(array, include, [if_empty])	=XLOOKUP(lookup_value, lookup_array, return_array, [if_not_found], [match_mode], [search_mode])
+Supports Conditions	Yes, can use logical expressions	No, only searches for one specific value
+Returns Rows?	✅ Yes	❌ No (returns a single row)
+Returns Columns?	✅ Yes	✅ Yes (if return array is horizontal)
+Dynamic Array Support	✅ Yes	✅ Yes
+Performance	Efficient with small to medium data	Efficient and optimized even for large datasets
+Error Handling	[if_empty] built-in	[if_not_found] built-in

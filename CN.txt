@@ -1,0 +1,59 @@
+CN: group of computers that are connected.
+COMPUTER: commonly oriented machine particularly used for training education and research .
+*entire connection on global scale is called internet.
+
+Before internet--> arpanet (advanced research projects agency)(USA)
+
+Protocol: set of rules and regulations.(created by internet society):
+ 1.TCP: transmission control protocol(ensure that the data will reached with out corruption).
+ 2.UDP: user datagram protocol.(entire data may or maynot reached to destination).
+ 3.HTTP: Hyper text transfer protocol(request , response).
+
+www: world wide web (tim berner)
+
+server:
+
+
+ISP: internet service provider:
+  * first our system or anything will connected with ISP , then ISP will connect internet.
+  * MBPS: Mega bit per second(speed of data transfered)
+  DHCP: dynamic host configuration protocol:
+
+
+
+
+
+
+IP Address: determine where your computer located.
+
+PORT Number(16 bit numbers) :denoting which application you are using to communicate.
+
+ total ports = 2^16 = 65,000.  
+
+ HTTP:80              0 to 1023--->reserved ports.
+ MONGODB:27017        1024 to 49152--->application.
+ SQL:1433              remaining will be usable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
